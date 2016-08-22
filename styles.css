@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2015, 12:21:41 PM
+    Author     : master_yoda
+*/
+
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color:#FFFFFF;
+    background-color: #333333;
+    font-size: 5em;
+    padding: 25px;
+}
+body{
+    background-color: #000000;
+}
+li{
+    color: #999;
+    list-style: none;
+    font-family: monospace;
+    font-size: 1.5em;
+    
+
+}
+.firstletter{
+    float:left;
+    font-size:3em;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 0.2em;
+    color:#ffffff;
+
+}
+.gutter-left{
+    float:left;
+    width:100%;
+    height:100%;
+}
+.gutter-right{
+    
+}
+.main-content{
+    
+}
+.list-box{
+    margin: 1.5em;
+    border-color: white;
+    
+}
+.right-pull{
+    display: block;
+    padding: 7px 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 120px;
+    float: right;
+    background: #555;
+    color: #bcbcbc;
+    line-height: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+
+}
+.right-pull p{
+    font-style: italic;
+    color: #d5d5d5;
+}
+.right-pull .ref{
+    font-size: 11px;
+    
+}
+.col {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    -webkit-column-rule: 1px solid #868686;
+    color: #999999;
+}
+.img-align-left{
+    border-radius: 20px;
+    border-color: #fff;
+    box-sizing: border-box;
+    width:25%;
+    float: left;
+    border: 1px solid #fff;    
+    box-shadow: 10px 10px #fff;
+    margin: 25px;
+    
+}
+.img-align-right{
+    width: 25%;
+    float: right;
+}
+img.opacity:hover{
+    opacity:1;
+    filter: alpha(opacity=100)
+    
+}
+img.opacity {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}	
+.container{
+    padding: 25px;
+}
